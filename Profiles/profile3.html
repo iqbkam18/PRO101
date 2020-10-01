@@ -1,0 +1,83 @@
+<html>
+	<head>
+        <link href ="profile3.css" rel ="stylesheet">
+        <script src="../siteLink.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+         <script src="../Chat.js"></script>
+	</head>
+    
+    <body>
+    
+    <div id="mainContainer">
+
+        <h1 id="name">Profile</h1>
+
+        <img id="daiqi" src="../Pictures/daiqi_logo.png">
+
+        <div id="divider"></div>
+
+        <div id="mainStage"></div>
+        
+        <button id="home" onclick="linkFrontpage()">
+            <a id="homeText">Home</a>
+        </button>
+
+        <button id="table" onclick="linkTable()">
+            <a id="homeText">Table</a>
+        </button>
+
+        <button id="settings" onclick="linkInfo()">
+            <a id="homeText">Info</a>
+        </button>
+
+        <button id="calendar" onclick="linkCalendar()">
+            <a id="homeText">Calendar</a>
+        </button>
+
+        <div id="mainStage">
+        
+            <img id="profilePic" src="../Pictures/marit.jpg">
+            
+            <div id="infoBox">
+                <h2 id="profileName">Marit Sivertsen</h2>
+                <p><i class="info"></i>E-marketing coordinator</p>
+                <p><i class="info"></i>Oslo, Norway</p>
+                <p><i class="info"></i>marit-cool@gmail.com</p>
+                <p><i class="info"></i>+47 98765432</p>
+                <hr>
+                <p><b><i class="fa fa-asterisk info"></i>Degree</b></p>
+                <p>First year student e-buisness</p>
+                <hr>
+                <p>Change user:</p>
+                <a id="p_button1" href="profile.html" class="d_button_1" style="vertical-align: middle"><span>John Fredriksen</span></a><br><br>
+                <a id="p_button1" href="profile2.html" class="d_button_1" style="vertical-align: middle"><span>Jaspreet Singh</span></a><br><br>
+                <a id="p_button2" href="profile3.html" class="d_button_2" style="vertical-align: middle"><span>Marit Sivertsen</span></a><br><br>
+                <a id="p_button3" href="profile4.html" class="d_button_3" style="vertical-align: middle"><span>Tor Arne</span></a>
+            </div>
+
+            <div id="bioBox">
+                <a id="bioText">BIO: Dette er en bio om Marit Sivertsen</a>
+                <textarea id="bio">Skriv om deg selv</textarea>
+            </div>
+
+            <div id="chatbox">
+            <p id="chatText">Chat</p>
+            <button type="button" id="sendBtn" onclick="sendChat()">Send</button>
+
+            <div id="chatArea">
+                
+                <ul id="chatList">
+                </ul>
+            </div>
+
+            <input type="text" id="chatInput" placeholder="Enter message">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </body>
+    
+</html>
